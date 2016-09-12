@@ -1,0 +1,24 @@
+{
+  "name": "express-sep-workshop",
+  "version": "1.0.0",
+  "description": "Bootcamp node girls",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TriptiWani/express-workshop.git"
+  },
+  "author": "TriptiWani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TriptiWani/express-workshop/issues"
+  },
+  "homepage": "https://github.com/TriptiWani/express-workshop#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mustache-express": "^1.2.2"
+  }
+}

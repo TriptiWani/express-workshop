@@ -2,6 +2,7 @@ $(document).ready(function() {
     $.ajax({
         url: '/get-posts',
         dataType: 'json',
+        method: 'GET',
         success: function(data) {
 
             for (var blogPost in data) {
@@ -18,7 +19,7 @@ $(document).ready(function() {
                 postDiv.appendChild(thumbnail);
                 postDiv.appendChild(postText);
                 postContainer.appendChild(postDiv);
-                
+
             }
         },
         error: function(error){
